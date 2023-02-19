@@ -1,0 +1,35 @@
+@media only screen and (min-width : 992px) {
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.47) !important;
+    }
+}
+
+ @media only screen and (max-width: 991px) {
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.47) !important;
+    }
+    .bg-box{
+        width: 250px;
+        height: 250px;
+    }
+    #bg-img{
+
+        top: 50%;
+        
+        left: 50%;
+        transform: translate(-30%, -50%); 
+        width: 324px;
+        height: 208px;
+    }
+    .bg-txt{
+        padding: 10px;
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    #history{
+
+        padding-left: 0%;
+    }
+
+}
